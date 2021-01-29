@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;800&family=Mulish:wght@200;400;600;800&family=Playfair+Display:wght@400;500;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600;800&family=Mulish:wght@200;400;600;800&family=Playfair+Display:wght@400;500;700;800;900&display=swap");
 
 /* font-family: 'Inter', sans-serif;
 font-family: 'Mulish', sans-serif;
@@ -35,7 +35,7 @@ nav {
   font-family: "Inter", sans-serif;
   color: #b8becd;
   font-size: 20px;
-  margin-left: 28%;
+  margin-left: 20%;
 }
 #button {
   width: 25%;
@@ -43,6 +43,7 @@ nav {
 .login {
   border: 2px solid #fb8f1d;
   padding: 20px 60px;
+  width: 40%;
   border-radius: 10px;
   margin-right: 10%;
   font-size: 20px;
@@ -50,6 +51,7 @@ nav {
   background-color: #ffffff;
 }
 .register {
+  width: 40%;
   border: 2px solid #fb8f1d;
   padding: 20px 47px;
   border-radius: 10px;
@@ -66,4 +68,60 @@ nav {
   background-color: #fb8f1d;
   color: #ffffff;
   font-weight: 400;
+}
+/* HeaderStyle______________ */
+.explore-img {
+  background: url(./assets/img/1.png) right / 70% no-repeat;
+  height: 75vh;
+  width: 70%;
+}
+.articleHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  height: 85vh;
+  margin-left: 5%;
+}
+.explore h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-size: 5rem;
+  margin-bottom: 10%;
+}
+.explore p {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 25px;
+}
+.select-div {
+  margin-top: 10%;
+  margin-bottom: 15%;
+  width: 90%;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.select-div select {
+  width: 90%;
+  margin-bottom: 10%;
+  padding: 7%;
+  color: #4a4c53;
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  border-color: #afb0b9;
+  border-radius: 15px;
+}
+#img1 {
+  position: relative;
+  top: 73vh;
+  left: 70vh;
+}
+#img2 {
+  position: relative;
+  top: 35vh;
+  left: -8vh;
+}
+#img3 {
+  position: relative;
+  left: 50vh;
 }

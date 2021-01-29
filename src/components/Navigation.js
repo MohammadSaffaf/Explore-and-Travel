@@ -1,5 +1,7 @@
 import React from 'react'
+import Header from './Header'
 const Navigation = () => {
+    
    
     return ( 
         <article>
@@ -17,6 +19,7 @@ const Navigation = () => {
                     <button className="register">Register</button>
                     </div>
             </nav>
+             <Header/>
             
         </article>
      );
